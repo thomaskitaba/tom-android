@@ -1,0 +1,127 @@
+const tools = {
+  Ai: {
+    LLMs: [
+      { name: "OpenAI", link: "https://www.openai.com/" },
+      { name: "Bard", link: "https://bard.google.com" },
+      { name: "Sonic", link: "https://writesonic.com/" }
+    ],
+    "ai-assistant": [
+      { name: "GPT-3", link: "https://www.openai.com/gpt-3/" },
+      { name: "GPT-4", link: "https://www.openai.com/gpt-4/" },
+      { name: "GPT-5", link: "https://www.openai.com/gpt-5/" }
+    ],
+    "ai-music-generator": [
+      { name: "OpenAI Jukebox", link: "https://openai.com/jukebox/" },
+      { name: "OpenAI MuseNet", link: "https://openai.com/musenet/" },
+      { name: "OpenAI DALL-E", link: "https://openai.com/dall-e/" }
+    ],
+    "ai-chart-maker": [
+      { name: "OpenAI Chart Maker", link: "https://openai.com/chart-maker/" },
+      { name: "OpenAI Chart Generator", link: "https://openai.com/chart-generator/" },
+      { name: "OpenAI Chart Creator", link: "https://openai.com/chart-creator/" }
+    ]
+  },
+  Image: [
+    { name: "Remove Watermark", link: "https://www.watermarkremover.io/" },
+    { name: "Image Color Picker", link: "https://imagecolorpicker.com" },
+    { name: "Photopea", link: "https://www.photopea.com" },
+    { name: "Color Wheel (Canva)", link: "https://www.canva.com/colors/color-wheel/" },
+    { name: "Gradient Color Selector", link: "https://uigradients.com/" },
+    { name: "Contrast Ratio Checker (WebAIM)", link: "https://webaim.org/resources/contrastchecker/" },
+    { name: "Convert React Code to JavaScript", link: "https://babeljs.io/" }
+  ],
+  Notes: {
+    "Google Digital Marketing": [
+      { name: "Interact with Customers: Likes to Leads", link: "https://drive.google.com/file/d/1313zuKK8tw9rzIJ7uxadwa67OCa3f0cU/view?usp=drive_link" },
+      { name: "Think Outside the Inbox: Email Marketing", link: "https://drive.google.com/file/d/1IOkrNFAebpbbBaU25UnV8PyM7tk_eZGH/view?usp=drive_link" },
+      { name: "Marketing Analytics and Measurements", link: "https://drive.google.com/file/d/1R54gH4ZuwkLdNo2wcno5GQq5zJevaU0Z/view?usp=drive_link" },
+      { name: "Build and Launch E-commerce Stores", link: "https://drive.google.com/file/d/1Zlmzha8NO3s8hjy4UVlYfvH2BL2FZ6tX/view?usp=drive_link" },
+      { name: "Satisfied Customers: Create Loyal Customers", link: "https://drive.google.com/file/d/1RIXP-VbUB2HqkRbWRVG9NbrTOWTCBu7f/view?usp=drive_link" }
+    ]
+  },
+  Marketing: {
+    "Content Creation Tools": [
+      { name: "Canva: Create stunning visuals for social media, presentations, and more.", link: "https://www.canva.com" },
+      { name: "Adobe Creative Cloud Express: Design like a pro with easy-to-use templates and powerful tools.", link: "https://www.adobe.com/express/en/" }
+    ],
+    "Content Curation Tools": [
+      { name: "Feedly: Stay organized and informed by curating your favorite content.", link: "https://feedly.com/" },
+      { name: "Pocket: Save interesting articles, videos, and other web content for later.", link: "https://getpocket.com/" }
+    ],
+    "Content Scheduling Tools": [
+      { name: "Hootsuite: Manage all your social media accounts in one place.", link: "https://hootsuite.com/" },
+      { name: "Buffer: Schedule and publish engaging social media content.", link: "https://buffer.com/" }
+    ],
+    "Content Analytics Tools": [
+      { name: "Hootsuite Analytics: Gain valuable insights into your social media performance.", link: "https://hootsuite.com/analytics/" },
+      { name: "Brandwatch: Track brand mentions, understand industry trends, and identify influencers.", link: "https://brandwatch.com/" },
+      { name: "Mentionlytics: Never miss a brand mention again. Track keywords and conversations.", link: "https://mentionlytics.com/" }
+    ]
+  }
+};
+
+
+const myWorks = {
+  Web-Projects: [
+    {
+      name: "tom-menu",
+      link: "https://thomaskitaba.github.io/tom-blog-post",
+      description: "A simple hotel menu with a list of items and prices with the capability to add and remove items from the cart. The cart also shows the total price of the items in the cart. Users can filter items by category.",
+      technologyUsed: "React, JavaScript, HTML, CSS"
+    },
+    {
+      name: "k2n Consultants",
+      link: "https://k2nconsultant.free.nf/",
+      description: "A consultancy service website for K2N Consultants.",
+      technologyUsed: "HTML, CSS, JavaScript"
+    },
+    {
+      name: "Who I am",
+      link: "https://thomas-kitaba.my.canva.site/tom-heritage",
+      description: "A personal site about who I am and my heritage.",
+      technologyUsed: "Canva"
+    },
+    {
+      name: "Google Portfolio",
+      link: "https://sites.google.com/view/thomaskitaba",
+      description: "A portfolio of my work hosted on Google Sites.",
+      technologyUsed: "Google Sites"
+    },
+    {
+      name: "Tom Marketer",
+      link: "https://thomas-kitaba.my.canva.site/",
+      description: "A marketing website showcasing my skills and services.",
+      technologyUsed: "Canva"
+    },
+    {
+      name: "Tom Travel",
+      link: "https://tomtravel.netlify.app/",
+      description: "A travel website providing information about travel destinations.",
+      technologyUsed: "HTML, CSS, JavaScript"
+    },
+    {
+      name: "Tom Restaurant",
+      link: "https://tomrestorant.netlify.app/",
+      description: "A restaurant website featuring menus and reservation capabilities.",
+      technologyUsed: "HTML, CSS, JavaScript"
+    },
+    {
+      name: "React Portfolio",
+      link: "https://thomaskitaba.github.io/thomas-portifolio",
+      description: "A portfolio showcasing my projects and skills, built with React.",
+      technologyUsed: "React, JavaScript, HTML, CSS"
+    },
+    {
+      name: "Tom Blog Post",
+      link: "https://thomaskitaba.github.io/tom-blog-post/",
+      description: "A blog platform where I post articles about various topics.",
+      technologyUsed: "HTML, CSS, JavaScript"
+    },
+    {
+      name: "Panorama Menu",
+      link: "https://thomaskitaba.github.io/panorama-menu/",
+      description: "A menu for Panorama Restaurant with item filtering and cart functionality.",
+      technologyUsed: "HTML, CSS, JavaScript"
+    }
+  ]
+};

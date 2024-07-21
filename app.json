@@ -8,6 +8,35 @@
       "expo-router"
     ],
     "name": "tom-android",
-    "slug": "tom-android"
+    "slug": "tom-android",
+    "version": "1.0.0.",
+    "android": {
+      "package": "com.tomhome.tomandroid",
+      "runtimeVersion": "1.0.0",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/splash.jpg",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.tomhome.tomios"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8bc5112e-06cf-4f47-9374-c874dce1dd86"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8bc5112e-06cf-4f47-9374-c874dce1dd86"
+    },
+    "icon": "./assets/icons/tom.png",
+    "splash": {
+      "image": "./assets/images/splash.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    }
   }
 }
